@@ -14,7 +14,7 @@ public class UpdateKlient implements Komenda{
     @Override
     public void obsluga() {
         System.out.println("Podaj id klienta, dla ktorego chcesz zrobic update");
-        Integer id = Integer.parseInt(Komenda.scanner.nextLine());
+        Long id = Long.parseLong(Komenda.scanner.nextLine());
 
         System.out.println("Podaj imie");
         String imie = Komenda.scanner.nextLine();

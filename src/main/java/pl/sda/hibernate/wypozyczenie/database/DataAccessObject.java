@@ -65,7 +65,7 @@ public class DataAccessObject<T> {
 
 
 
-    public void update(Class<T> tClass, Integer id, T obiektDoWstawieniaDoBazy){
+    public void update(Class<T> tClass, Long id, T obiektDoWstawieniaDoBazy){
         try (Session session = HibernateUtil.INSTANCE.getSessionFactory().openSession()){
             Transaction transaction = session.beginTransaction();
 

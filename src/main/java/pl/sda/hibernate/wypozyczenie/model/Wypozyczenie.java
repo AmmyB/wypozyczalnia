@@ -16,7 +16,7 @@ public class Wypozyczenie {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     @CreationTimestamp
     private LocalDate data_wypozyczenia;

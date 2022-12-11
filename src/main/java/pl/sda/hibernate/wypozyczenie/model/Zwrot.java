@@ -16,7 +16,7 @@ public class Zwrot {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     @CreationTimestamp
     private LocalDateTime data_czas_zwrotu;
