@@ -18,7 +18,14 @@ public class Main {
                 new KomendaCzyKlientIstnieje(),
                 new KomendaUsunklient(),
                 new KomendaZnajdzKlient(),
-                new UpdateKlient()
+                new UpdateKlient(),
+                new KomendaDodajSamochod(),
+                new KomedaListaSamochodow(),
+                new UpdateSamochod(),
+                new KomendaZnajdzSamochod(),
+                new KomendaUsunSamochod(),
+                new KomendaCzySamochodIstnieje(),
+                new KomendaDodajWypozyczenie()
 
 
         ));

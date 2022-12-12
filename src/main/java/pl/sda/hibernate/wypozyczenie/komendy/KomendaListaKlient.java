@@ -11,7 +11,7 @@ public class KomendaListaKlient implements Komenda{
 
     @Override
     public String getKomenda() {
-        return "Lista klient"; // co musimy wpisac, aby wyswietlilc komnde
+        return "Lista klient"; // co musimy wpisac, aby wyswietlilc komende
     }
 
     @Override
